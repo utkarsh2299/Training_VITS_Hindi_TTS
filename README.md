@@ -1,7 +1,7 @@
 # Training_VITS_Hindi_TTS
 
 ## Introduction
-This repository contains code for training a Text-to-Speech (TTS) model specifically for Hindi language using the VITS (Very Deep Vocoder Inference Stage) model. The VITS model is known for its high-quality speech synthesis capabilities. 
+This repository contains code for training a Text-to-Speech (TTS) model specifically for Hindi language using the VITS model. The VITS model is known for its high-quality speech synthesis capabilities. 
 
 ## Installation
 To get started with training the Hindi TTS model, follow these steps:
@@ -10,9 +10,9 @@ To get started with training the Hindi TTS model, follow these steps:
 
 2. Ensure that the Hindi dataset is available inside the `Dataset` folder. The data should be formatted in a manner similar to LJSpeech 1.1 dataset for compatibility.
 
-3. Install all required libraries for phonemizing Hindi alphabets. Espeak library is particularly useful for this purpose.
+3. Install all required libraries for phonemizing Hindi alphabets. **Espeak** library is particularly useful for this purpose.
 
-4. Adjust the parameters in the code according to your requirements. The rest of the parameters should be updated accordingly for the Hindi dataset.
+4. Adjust the parameters in the code according to your requirements. The rest of the parameters should already be updated accordingly for the Hindi dataset.
 
 ## Dataset
 The dataset provided in the `Dataset` folder contains text data in Hindi language. It follows the same format as the LJSpeech 1.1 dataset for consistency. Ensure that the dataset is properly formatted and organized before proceeding with training.
