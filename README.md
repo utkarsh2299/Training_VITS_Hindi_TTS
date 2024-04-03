@@ -8,7 +8,7 @@ To get started with training the Hindi TTS model, follow these steps:
 
 1. Install the Coqui TTS toolkit by following the instructions provided [here](https://docs.coqui.ai/en/latest/installation.html).
 
-2. Ensure that the Hindi dataset is available inside the `Dataset` folder. The data should be formatted in a manner similar to LJSpeech_1.1 dataset for compatibility.
+2. Ensure that the Hindi dataset is available inside the `Dataset` folder. The Hindi data i used can be downloaded from [here](https://www.iitm.ac.in/donlab/indictts/database). The data should be formatted in a manner similar to LJSpeech_1.1 dataset for compatibility.
 
 3. Install all required libraries for phonemizing Hindi alphabets. **Espeak** library is particularly useful for this purpose.
 
