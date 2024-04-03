@@ -36,7 +36,7 @@ tts --text "यह अपनत्व और उत्कर्ष गुलज�
     --out_path folder/to/save/output.wav
 ```
 ## Contributing
-Contributions to this project are welcome! If you have any improvements or suggestions, feel free to open an issue or submit a pull request.
+I made the project working and it is generating good synthesised output. Contributions to this project are welcome! If you have any improvements or suggestions, feel free to open an issue or submit a pull request.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
