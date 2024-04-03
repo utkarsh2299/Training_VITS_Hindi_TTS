@@ -21,10 +21,20 @@ The dataset provided in the `Dataset` folder contains text data in Hindi languag
 To train the TTS model for Hindi language, run the `train_tts.py` file. This file contains the necessary code for training the model using the VITS architecture. Make sure all dependencies are installed and the dataset is properly configured before initiating the training process.
 
 ```python
-# Example code for training the TTS model
-python train_tts.py
+nvidia-smi   #to check the GPUS available
+CUDA_VISIBLE_DEVICES="5" python train_tts.py  #Mention the GPU to run on and the training file
 ```
 
+## Inference
+
+```python
+pip install TTS
+
+tts --text "यह अपनत्व और उत्कर्ष गुलज़ार की पूरी ज़िदगी और उनके अनेक अन्य कार्यों में आसानी से लक्षित हो जा सकती है." \
+    --model_path path/to/model.pth \
+    --config_path path/to/config.json \
+    --out_path folder/to/save/output.wav
+```
 ## Contributing
 Contributions to this project are welcome! If you have any improvements or suggestions, feel free to open an issue or submit a pull request.
 
