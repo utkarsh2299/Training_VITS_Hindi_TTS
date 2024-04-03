@@ -15,7 +15,7 @@ To get started with training the Hindi TTS model, follow these steps:
 4. Adjust the parameters in the code according to your requirements. The rest of the parameters should already be updated accordingly for the Hindi dataset.
 
 ## Dataset
-The dataset provided in the `Dataset` folder contains text data in Hindi language. It follows the same format as the LJSpeech 1.1 dataset for consistency. Ensure that the dataset is properly formatted and organized before proceeding with training.
+The dataset provided in the `Dataset` folder contains text data and corresponding Wav files in Hindi language. It follows the same format as the LJSpeech 1.1 dataset for consistency. Ensure that the dataset is properly formatted and organized before proceeding with training.
 
 ## Training
 To train the TTS model for Hindi language, run the `train_tts.py` file. This file contains the necessary code for training the model using the VITS architecture. Make sure all dependencies are installed and the dataset is properly configured before initiating the training process.
